@@ -1,0 +1,9 @@
+$def with (students)
+<ul>
+$for student in students:
+       <li id="t$student.rno">$student.name</li>
+</ul>
+
+<form method="post" action="add">
+<p><input type="text" name="name" /> <input type="submit" value="Add" /></p>
+</form>

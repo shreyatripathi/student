@@ -1,0 +1,5 @@
+CREATE TABLE student (
+  rno serial primary key,
+  name text);  
+
+INSERT INTO student (name) VALUES ('Shreya Tripathi');
